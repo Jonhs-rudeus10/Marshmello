@@ -2,7 +2,7 @@ module.exports = {
 	config: {
 			name: "Qui es ton créateur",
 			version: "1.0",
-			author: Shibai Otsutsuki,
+			author: rudeus Ariel,
 			countDown: 5,
 			role: 0,
 			shortDescription: "sarcasm",
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "qui es ton créateur") return message.reply("J'ai été créé par mon sublime intelligent maître vénéré Daimyo SHIBAI OTSUTSUKI 😰");
+	if (event.body && event.body.toLowerCase() == "qui es ton créateur") return message.reply("rudeus ariel le seul et l'unique 😁");
 }
 };
