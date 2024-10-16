@@ -1,8 +1,8 @@
 module.exports = {
 	config: {
-			name: "On fait quoi face à Shibai Otsutsuki",
+			name: "😒",
 			version: "1.0",
-			author: "Shibai Otsutsuki",
+			author: "Ariel Ackerman",
 			countDown: 5,
 			role: 0,
 			shortDescription: "sarcasm",
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "On fait quoi face à Shibai Otsutsuki") return message.reply("🧎🏽‍♂️");
+	if (event.body && event.body.toLowerCase() == "t'es qui au fait 😶") return message.reply("🧎🏽‍♂️");
 }
 };
