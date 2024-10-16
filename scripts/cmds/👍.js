@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "👍") return message.reply("Shibai Otsutsuki es trop intelligent 😇 ");
+	if (event.body && event.body.toLowerCase() == "👍") return message.reply("my name is ariel Ackerman ou tu peux m'appeler vortex blade 😶 ");
 }
 };
