@@ -4,7 +4,7 @@ module.exports = {
   config: {
     name: "file",
     version: "1.0",
-    author: "Shibai Otsutsuki",
+    author: "Ariel Ackerman",
     countDown: 5,
     role: 0,
     shortDescription: "Send bot script",
@@ -14,14 +14,14 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["61561751986955"];
+    const permission = ["61566739640941"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("𝐒𝐞𝐮𝐥 𝐦𝐨𝐧 maitre Shibai Otsutsuki 𝐦𝐞 𝐜𝐨𝐧𝐭𝐫𝐨𝐥𝐞🜋 ", event.threadID, event.messageID);
+      return api.sendMessage("🖕🖕🖕 tu es pas rudeus 😾 ", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
     if (!fileName) {
-      return api.sendMessage("𝖡𝖺𝗅𝖺𝗇𝖼𝖾 𝗅𝖾 𝗇𝗈𝗆 𝖽𝗎 𝖿𝗂𝖼𝗁𝗂𝖾𝗋.", event.threadID, event.messageID);
+      return api.sendMessage("je t'écoute maître rudeus 😁.", event.threadID, event.messageID);
     }
 
     const filePath = __dirname + `/${fileName}.js`;
