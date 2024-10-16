@@ -31,7 +31,7 @@ module.exports = {
 		},
 		en: {
 			missingMessage: "Please enter the message you want to send to all groups",
-			notification: "Shibai Otsutsuki vous parle",
+			notification: "ici ariel Ackerman a l'appareil 📲",
 			sendingNotification: "Start sending the noti from admin bot to %1 chat groups",
 			sentNotification: "✅ Sent notification to %1 groups successfully",
 			errorSendingNotification: "An error occurred while sending to %1 groups:\n%2"
