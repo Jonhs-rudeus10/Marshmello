@@ -2,7 +2,7 @@ module.exports = {
 	config: {
 			name: "salut",
 			version: "1.0",
-			author: "Shibai Otsutsuki",
+			author: "jonhs rudeus",
 			countDown: 5,
 			role: 0,
 			shortDescription: "sarcasm",
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "salut") return message.reply("Salut humain! comment tu vas écrit #shibai pour que je t'ajoute dans mon groupe et n'oublie pas que Shibai Otsutsuki es le meilleur 😉");
+	if (event.body && event.body.toLowerCase() == "salut") return message.reply("Salut p'tit je suis une intelligence artificielle créé par Ariel Ackerman a quoi puis je t'aider ?🫤 ");
 }
 };
