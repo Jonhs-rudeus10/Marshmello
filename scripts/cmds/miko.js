@@ -18,7 +18,7 @@ module.exports.run = async function ({ api, event, args }) {
 	return api.sendMessage("salut mortel 🔰♻️", event.threadID, event.messageID);
  }
 
- api.sendMessage("🟡 Shibai Otsutsuki à la rescousse 🏃‍♀️...", event.threadID, event.messageID); 
+ api.sendMessage("🔰vortex blade 🔰 attend un peu mortel 🫡 ", event.threadID, event.messageID); 
 
  const apiUrl = `https://bluerepoapislasttry.onrender.com/hercai?content=${content}`;
 
