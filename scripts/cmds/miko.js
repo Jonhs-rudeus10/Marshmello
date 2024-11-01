@@ -1,10 +1,10 @@
 const axios = require('axios');
 
 module.exports.config = {
- name: "miko",
+ name: "mortel",
  version: "1.0.0",
  role: 0,
- aliases: ["miko"],
+ aliases: ["mortel"],
  credits: "cliff",
 cooldown: 0,
 hasPrefix: false,
@@ -15,7 +15,7 @@ module.exports.run = async function ({ api, event, args }) {
  const content = encodeURIComponent(args.join(" "));
 
  if (!content) {
-	return api.sendMessage("🟢 Salut! moi c'est SHIBAI BOT une Intelligence Artificielle créer par Shibai Otsutsuki mon maître comment puis-je vous aider aujourd'hui ?", event.threadID, event.messageID);
+	return api.sendMessage("salut mortel 🔰♻️", event.threadID, event.messageID);
  }
 
  api.sendMessage("🟡 Shibai Otsutsuki à la rescousse 🏃‍♀️...", event.threadID, event.messageID); 
