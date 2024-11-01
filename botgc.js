@@ -3,7 +3,7 @@ const moment = require('moment-timezone');
 
 module.exports = {
   config: {
-    name: "botgc",
+    name: "vortexgc",
     aliases: ["vortexgc, arielgc"],
     version: "1.0",
     author: "ariel ackerman",
